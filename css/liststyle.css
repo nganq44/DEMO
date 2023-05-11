@@ -38,7 +38,6 @@ body {
   --light: #f0fbfc;
   --dark: #181d38;
 }
-
 .fw-medium {
   font-weight: 600 !important;
 }
@@ -79,6 +78,7 @@ body {
 .btn.btn-primary,
 .btn.btn-secondary {
   color: #ffffff;
+  background-color: #086826;
 }
 
 .btn-square {
@@ -108,6 +108,7 @@ body {
 }
 
 /*** Navbar ***/
+
 .navbar .dropdown-toggle::after {
   border: none;
   content: "\f107";
@@ -115,12 +116,15 @@ body {
   font-weight: 900;
   vertical-align: middle;
   margin-left: 8px;
+  color: #086826;
 }
-
+.navbar-brand {
+  color: #086826;
+}
 .navbar-light .navbar-nav .nav-link {
   margin-right: 30px;
   padding: 25px 0;
-  color: #06cc45;
+  color: #086826;
   font-size: 15px;
   text-transform: uppercase;
   outline: none;
@@ -129,6 +133,7 @@ body {
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--primary);
+  /* color: #086826; */
 }
 
 @media (max-width: 991.98px) {
